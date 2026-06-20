@@ -1,14 +1,25 @@
 # Laravel Vue Scafolding
 
-Laravel Vue Scafolding is a starter project that combines Laravel with Vue. It is intended as a scaffold for building full-stack applications with a Laravel backend and Vue-driven front-end views.
+Laravel Vue Scafolding is a starter project combining a Laravel backend with a Vue front end.
 
-## Project Details
+## Features
 
-- Repository: `NahinAhmed28/laravel-vue-scafolding`
-- Default branch: `main`
-- Visibility: public
-- Project type: Laravel + Vue scaffold
-- Main focus: full-stack application starter
+- Full-stack Laravel + Vue scaffold
+- Backend routing, controllers, and models
+- Vue component/UI foundation
+- Vite/npm asset build workflow
+
+## Modules
+
+- Backend module: Laravel routes, controllers, services, and models
+- Frontend module: Vue components, pages, and assets
+- Auth module: authentication flow when enabled
+- Data module: migrations, seeders, and database persistence
+- Build module: Composer, npm, Vite, and development scripts
+
+## System Architecture
+
+The project follows a full-stack Laravel architecture. Laravel handles backend routing, business logic, and persistence. Vue handles client-side UI components. Vite builds front-end assets and Laravel serves the application shell or API responses.
 
 ## Getting Started
 
@@ -22,13 +33,3 @@ npm install
 npm run dev
 php artisan serve
 ```
-
-Configure database values in `.env`, then run migrations if included.
-
-```bash
-php artisan migrate
-```
-
-## Notes
-
-Document the scaffold conventions, authentication flow, component structure, and recommended extension steps.
